@@ -1,6 +1,6 @@
 import 'jsdom-global/register';
 import React from 'react';
-import { configure, mount, render, shallow } from 'enzyme';
+import { configure,shallow } from 'enzyme';
 import chai, { expect } from 'chai';
 import chaiEnzyme from 'chai-enzyme';
 import Adapter from 'enzyme-adapter-react-16';
