@@ -1,17 +1,19 @@
-import React from 'react';
-import './App.css';
-import Form from './Form';
-
+import React from "react";
+import "./App.css";
+import Home from "./Home";
+import Login from "./LoginForm";
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Form />
-      </header>
-    </div>
+    <>
+    <div className="App">
+        <div className="App-header">
+          <h2>Welcome to React</h2>
+          <Home />
+        </div>
+        <p>Hello World!</p>
+        <Login />
+      </div>
+      </>
   );
 }
 
